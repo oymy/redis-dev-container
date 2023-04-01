@@ -7,8 +7,8 @@ git clone https://github.com/redis/redis.git redis
 #cp -r ../devcontainer ./
 
 # 3. 使用Docker构建并运行容器
-docker build -t redis-devcontainer .devcontainer
-docker run -it --rm -v "$(pwd):/workspace" -p 6379:6379 --name redis-dev redis-devcontainer
+#docker build -t redis-devcontainer .devcontainer
+#docker run -it --rm -v "$(pwd):/workspace" -p 6379:6379 --name redis-dev redis-devcontainer
 
 # 4. 提示用户在VSCode中打开文件夹
 echo "请在Visual Studio Code中打开文件夹，然后通过Remote-Containers插件附加到运行中的容器。"
