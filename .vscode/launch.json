@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Debug Redis Server",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/redis/src/redis-server",
+            "args": ["${workspaceFolder}/redis/redis.conf"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/redis/",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build redis-server"
+        }
+    ]
+}
+
