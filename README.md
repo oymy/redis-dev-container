@@ -2,11 +2,11 @@
 本项目旨在通过 VS Code 的 Dev Container 插件快速配置并启动一个用于调试 Redis 的开发环境。项目包含必要的配置文件和一个简单的脚本用于下载 Redis 源码。以下是项目的详细介绍和使用说明。
 
 ## 文件说明
-download_redis_source_code.sh：用于下载 Redis 源码的脚本，执行后将从官方仓库克隆最新的 Redis 源码到名为 redis 的目录中。
-.devcontainer/Dockerfile：定义用于创建 Dev Container 的 Docker 镜像，其中包含了安装必要的开发工具和依赖。
-.devcontainer/devcontainer.json：定义了 Dev Container 的配置，如使用的 Docker 镜像、工作目录等。
-.vscode/launch.json：定义了 VS Code 的调试配置，用于启动和调试 Redis 服务器。
-.vscode/tasks.json：定义了 VS Code 的任务配置，包括编译 Redis 等操作。
+- download_redis_source_code.sh：用于下载 Redis 源码的脚本，执行后将从官方仓库克隆最新的 Redis 源码到名为 redis 的目录中。
+- .devcontainer/Dockerfile：定义用于创建 Dev Container 的 Docker 镜像，其中包含了安装必要的开发工具和依赖。
+- .devcontainer/devcontainer.json：定义了 Dev Container 的配置，如使用的 Docker 镜像、工作目录等。
+- .vscode/launch.json：定义了 VS Code 的调试配置，用于启动和调试 Redis 服务器。
+- .vscode/tasks.json：定义了 VS Code 的任务配置，包括编译 Redis 等操作。
 
 ## 使用步骤
 
