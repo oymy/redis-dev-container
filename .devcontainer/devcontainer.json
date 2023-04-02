@@ -1,7 +1,7 @@
 {
   "name": "Redis Devcontainer",
   "dockerFile": "Dockerfile",
-  "appPort": ["6379:6380"],
+  "appPort": ["6380:6379"],
   "context": "..",
   "workspaceFolder": "/workspace",
   "mounts": [
